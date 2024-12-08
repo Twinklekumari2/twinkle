@@ -134,7 +134,12 @@ button , .enter{
         width: 100%;
 
     }
-    .message-section , .message-bar{
+    .message-section {
         width: 80%;
+    }
+    .message-bar{
+        width: 60%;
+        display: flex;
+        justify-content: center;
     }
   }
