@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background-color: lightskyblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 30%;
+    height: 40%;
+    background-color:rgb(213, 213, 249);
+    /* gap: 3px; */
+}
+#message-section{
+    width: 62%;
+    height: 10%;
+    overflow:scroll;
+    scrollbar-width: none;
+    background-color: cadetblue;
+}
+button , .enter{
+    cursor: pointer;
+}
+.message-bar{
+    padding: 5px;
+    /* border: 1px solid navy; */
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+}
+.message{
+    word-wrap: break-word;
+    background-color: white;
+    border-radius: 15px;
+    width: 90%;
+    padding: 4px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    /* scrollbar-width: none; */
+    cursor: text;
+
+
+}
+.keyboard{
+    gap: 3px;
+}
+.alphabet , .number{
+    border: none;
+    border-radius: 7px;
+    padding: 5px 7px;
+    font-weight: 400;
+    font-size: x-large;
+    background-color: antiquewhite;
+}
+.row{
+    margin-top: 5px;
+}
+#row-2 , #row-4 , #row-5 {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+
+}
+#row-3{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 3px;
+    padding: 0px 5px;
+}
+
+#space{
+    width: 99px;
+    border-radius: 7px;
+    background-color: antiquewhite;
+    border: none;
+    padding: 0px 15px;
+}
+
+#enter{
+    border-radius: 7px;
+    background-color: rgb(141,141,170);
+    border: none;
+    padding: 0px 10px;
+
+}
+
+#convertor{
+    border-radius: 7px;
+    background-color: rgb(141, 141, 170);
+    border: none;
+    padding: 0px 10px;
+}
+#lowerToUpper{
+    border-radius: 7px;
+    background-color:rgb(141, 141, 170);
+    border: none;
+    padding: 0px 15px;
+}
+#cancel{
+    border-radius: 7px;
+    background-color:rgb(141, 141, 170);
+    border: none;
+    padding: 0px 15px;
+}
+#clrsrc{
+    border-radius: 7px;
+    background-color: rgb(141,141,170);
+    border: none;
+    padding: 0px 10px;
+
+}
+#row-1{
+    display: flex;
+    justify-content: center;
+}
