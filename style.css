@@ -121,6 +121,7 @@ button , .enter{
 
 }
 #row-1{
+    gap: 3px;
     display: flex;
     justify-content: center;
 }
