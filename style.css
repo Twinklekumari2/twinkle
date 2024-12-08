@@ -124,3 +124,17 @@ button , .enter{
     display: flex;
     justify-content: center;
 }
+
+
+@media only screen and (max-width:800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .message-section , .message-bar{
+        width: 80%;
+    }
+  }
